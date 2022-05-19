@@ -1,0 +1,162 @@
+@font-face {
+    font-family: SegoeSemibold;
+    src: url(./fonts/segoeui.ttf);
+}
+
+*{
+    font-family: SegoeSemibold;
+}
+
+body{
+    margin: 0px;
+}
+div{
+    box-sizing: border-box;
+}
+/* head section */
+.head_sec{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.head_sec > img{
+    height: 101px;
+}
+
+
+/* body section */
+.body_sec{
+    padding: 0px 15px;
+    text-align: center;
+}
+.product{
+    /* background-color: red; */
+    margin-bottom: 40px !important;
+    display: inline-block;
+    width: 400px;
+    max-width: 25%;
+    margin: auto;
+}
+.product_content{
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100% - 144px);
+    padding: 15px;
+}
+.product_content > .txt_h{
+    font-family: SegoeSemibold;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #0093DD;
+    opacity: 1;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+.name_en{
+    font-weight: bold;
+    margin: 0px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    margin-bottom: 2px;
+}
+.name_ar{
+    margin: 0px;
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 2px;
+}
+.desc{
+    margin: 0px;
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 4px;
+}
+.desc_light{
+    color: #909090;
+    font-size: 16px;
+    letter-spacing: 0px;
+    margin: 0px;
+    line-height: 19px;
+    margin-bottom: 1px;
+}
+.product_img{
+    position: relative;
+    display: inline-block;
+    background-color: #0093DD;
+    width: 144px;
+    height: 222px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 20px #0093dd;
+}
+.product_img > img{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    max-width: 115px;
+    max-height: 202px;
+    transform: translateX(-50%);
+}
+@media only screen and (max-width: 1600px) {
+    .product{
+        width: 400px;
+        max-width: 33.3333333%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .product{
+        width: 400px;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .product{
+        width: 400px;
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+
+.footer{
+    position: relative;
+    height: 169px;
+    background: transparent url('./img/Rectangle27.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-size: 100% 169px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.footer > p{
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+.footer > a {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+.footer > a > img{
+    display: inline-block;
+    height: 66px;
+    width: 66px;
+}
