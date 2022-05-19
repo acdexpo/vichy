@@ -91,11 +91,11 @@ div{
 .product_img{
     position: relative;
     display: inline-block;
-    background-color: #0093DD;
+    background-color: #B7D3F0;
     width: 144px;
     height: 222px;
     border-radius: 16px;
-    box-shadow: 0px 5px 20px #0093dd;
+    box-shadow: 0px 5px 20px #B7D3F0;
 }
 .product_img > img{
     position: absolute;
