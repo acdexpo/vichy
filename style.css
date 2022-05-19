@@ -20,7 +20,7 @@ div{
     margin-bottom: 20px;
 }
 .head_sec > img{
-    height: 101px;
+    height: 47px;
 }
 
 
@@ -50,7 +50,7 @@ div{
     font-size: 21px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: #0093DD;
+    color: #000000;
     opacity: 1;
     margin: 0px;
     margin-bottom: 2px;
@@ -159,4 +159,21 @@ div{
     display: inline-block;
     height: 66px;
     width: 66px;
+}
+
+div.product.vertical > .product_img > img{
+    max-width: 230px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+div.product.need_crop > .product_img > img{
+    top: -40px;
+    max-height: 225px;
+}
+div.product.need_full_crop > .product_img > img{
+    top: -40px;
+    height: 257px;
+    width: auto;
+    max-width: initial;
+    max-height: inherit;
 }
